@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "id": "key-rotation",
+      "question": "How do I rotate an API key safely?",
+      "expectedDocs": ["security.md"],
+      "mustContain": ["90 days", "replacement key", "revoke"]
+    },
+    {
+      "id": "incident-review",
+      "question": "What should happen after an incident is resolved?",
+      "expectedDocs": ["incidents.md"],
+      "mustContain": ["post-incident review", "root cause", "remediation"]
+    },
+    {
+      "id": "rag-evaluation",
+      "question": "How should a RAG system be evaluated?",
+      "expectedDocs": ["rag.md"],
+      "mustContain": ["recall at k", "citation coverage", "traces"]
+    },
+    {
+      "id": "ticket-tool",
+      "question": "What is the status of ticket OPS-127?",
+      "expectedDocs": ["incidents.md"],
+      "mustContain": ["OPS-127", "blocked", "platform-team"]
+    }
+  ]
+}
+
