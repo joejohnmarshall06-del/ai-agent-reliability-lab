@@ -1,0 +1,30 @@
+{
+  "name": "ai-agent-reliability-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A production-style reliability harness for AI agents with RAG, tools, guardrails, traces, and evals.",
+  "bin": {
+    "ai-reliability-lab": "./bin/ai-reliability-lab.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/ai-reliability-lab.js ask \"How do I rotate an API key?\"",
+    "eval": "node bin/ai-reliability-lab.js eval"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "rag",
+    "evals",
+    "llm",
+    "guardrails",
+    "tool-calling",
+    "tracing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
+
